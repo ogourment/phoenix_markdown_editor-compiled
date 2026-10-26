@@ -1,0 +1,10 @@
+{application,phoenix_markdown_editor,
+             [{modules,['Elixir.PhoenixMarkdownEditor.Component',
+                        'Elixir.PhoenixMarkdownEditor.ContactPicker',
+                        'Elixir.PhoenixMarkdownEditor.ContactSource']},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,phoenix_live_view,
+                             phoenix_html]},
+              {description,"phoenix_markdown_editor"},
+              {registered,[]},
+              {vsn,"0.1.4"}]}.
